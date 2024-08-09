@@ -53,3 +53,10 @@ const filePath = path.join(__dirname, "redis.json");
 
 // Split the file into chunks of 1000 lines each
 splitFile(filePath, 1000).catch(console.error);
+
+
+$ upstash-redis-dump -db 0 -host eu1-moving-loon-6379.upstash.io -port 6379 -pass PASSWORD -tls > redis.dump
+Database 0: 9 keys dumped
+
+
+$ upstash-redis-dump -db 0 -host HOIST -port 6379 -pass PASSWORD -tls > redis.dump

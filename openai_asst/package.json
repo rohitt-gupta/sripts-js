@@ -1,0 +1,20 @@
+{
+	"type": "module",
+	"name": "openai_asst",
+	"version": "1.0.0",
+	"main": "getThreads.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@supabase/supabase-js": "^2.45.1",
+		"axios": "^1.7.3",
+		"fs": "^0.0.1-security",
+		"openai": "^4.55.1",
+		"path": "^0.12.7"
+	}
+}
